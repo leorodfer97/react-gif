@@ -1,0 +1,57 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  padding: 60px;
+  background-color: indigo;
+  background-image: url(./assets/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: white;
+  background-attachment: fixed;
+}
+
+input {
+  font-size: 1.2rem;
+  color: white;
+  width: 98%;
+  padding: 1% 1%;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+h2{
+  text-align: center;
+}
+
+.card{
+  padding: 5px;
+  text-align: center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  z-index: 1;
+}
+
+.card:hover{
+  z-index: 2;
+  transform: scale(1.50);
+}
+
+.card img{
+  max-height: 170px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px grey;
+}
+
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.title-grid{
+  display: block;
+  width: 100%;
+}
